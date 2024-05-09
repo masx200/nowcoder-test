@@ -1,4 +1,4 @@
-package com.github.masx200.`nowcoder-test`.字符串最后一个单词的长度
+package com.github.masx200.`nowcoder-test`.计算某字符出现次数
 
 import java.util.Scanner
 
