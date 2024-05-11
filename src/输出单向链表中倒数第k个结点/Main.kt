@@ -3,7 +3,7 @@ package com.github.masx200.`nowcoder-test`.输出单向链表中倒数第k个结
 
 import java.util.Scanner
 
-data class ListNode(val m_nKey: Int, var m_pNext: ListNode? = null)
+data class ListNode(var m_nKey: Int, var m_pNext: ListNode? = null)
 
 fun main(args: Array<String>) {
     val `in` = Scanner(System.`in`)
