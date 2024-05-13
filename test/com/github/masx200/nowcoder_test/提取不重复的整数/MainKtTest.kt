@@ -13,7 +13,7 @@ class MainKtTest {
         ) {
             main(arrayOf())
         }
-        assertEquals("37689"+"\r\n", result[0])
+        assertEquals("37689", result[0].trim())
     }
 
 }
