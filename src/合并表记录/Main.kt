@@ -1,4 +1,4 @@
-package  com.github.masx200.`nowcoder-test`.合并表记录
+package  com.github.masx200.nowcoder_test.合并表记录
 
 import java.util.Scanner
 

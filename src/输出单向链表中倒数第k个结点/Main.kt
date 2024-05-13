@@ -1,4 +1,4 @@
-package com.github.masx200.`nowcoder-test`.输出单向链表中倒数第k个结点
+package com.github.masx200.nowcoder_test.输出单向链表中倒数第k个结点
 
 
 import java.util.Scanner

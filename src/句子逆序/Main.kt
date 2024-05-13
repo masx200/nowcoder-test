@@ -1,4 +1,4 @@
-package  com.github.masx200.`nowcoder-test`.句子逆序
+package  com.github.masx200.nowcoder_test.句子逆序
 
 import java.util.Scanner
 

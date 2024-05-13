@@ -1,4 +1,4 @@
-package com.github.masx200.`nowcoder-test`.字符串分隔
+package com.github.masx200.nowcoder_test.字符串分隔
 
 import java.util.Scanner
 

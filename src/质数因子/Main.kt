@@ -1,4 +1,4 @@
-package  com.github.masx200.`nowcoder-test`.质数因子
+package  com.github.masx200.nowcoder_test.质数因子
 
 import java.util.Scanner
 

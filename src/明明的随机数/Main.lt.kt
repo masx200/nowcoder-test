@@ -1,4 +1,4 @@
-package com.github.masx200.`nowcoder-test`.明明的随机数
+package com.github.masx200.nowcoder_test.明明的随机数
 
 import java.util.Scanner
 

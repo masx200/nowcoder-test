@@ -1,4 +1,4 @@
-package com.github.masx200.`nowcoder-test`.进制转换
+package com.github.masx200.nowcoder_test.进制转换
 
 import java.util.Scanner
 

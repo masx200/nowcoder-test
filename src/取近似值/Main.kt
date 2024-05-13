@@ -1,4 +1,4 @@
-package  com.github.masx200.`nowcoder-test`.取近似值
+package  com.github.masx200.nowcoder_test.取近似值
 
 import java.util.Scanner
 
