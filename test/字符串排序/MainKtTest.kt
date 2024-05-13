@@ -1,6 +1,6 @@
 package com.github.masx200.nowcoder_test.字符串排序
 import com.github.masx200.nowcoder_test.utils.MockTest
-import com.github.masx200.nowcoder_test.字符串排序.main
+
 import kotlin.test.assertEquals
 
 class MainKtTest {

@@ -1,4 +1,4 @@
-package  com.github.masx200.`nowcoder-test`.utils
+package  com.github.masx200.nowcoder_test.utils
 
 
 import java.io.ByteArrayInputStream

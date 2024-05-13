@@ -1,7 +1,7 @@
-package 提取不重复的整数
+package com.github.masx200.nowcoder_test.提取不重复的整数
 
 import com.github.masx200.nowcoder_test.utils.MockTest
-import com.github.masx200.nowcoder_test.提取不重复的整数.main
+
 import kotlin.test.assertEquals
 
 class MainKtTest {
