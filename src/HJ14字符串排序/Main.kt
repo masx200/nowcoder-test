@@ -1,7 +1,6 @@
-package com.github.masx200.nowcoder_test.字符串排序
+package com.github.masx200.nowcoder_test.HJ14字符串排序
 
 import java.util.Scanner
-
 
 fun main(args: Array<String>) {
     val `in` = Scanner(System.`in`)
@@ -18,14 +17,12 @@ fun main(args: Array<String>) {
             list.add(a)
         }
 
-
         if (count == list.size) {
             list.sort()
 
             println(list.joinToString("\n"))
             list.clear()
             count = 0
-
         }
     }
 }
