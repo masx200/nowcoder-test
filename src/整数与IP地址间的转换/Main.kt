@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
         if (ip.contains(".")) {
             val ipArr = ip.split(".").map { it.toLong() }
 
-            println(ipArr.reduce({ a, b -> a * 256 + b }))
+            println(ipArr.reduce { a, b -> a * 256 + b })
         } else {
 
             val ipArr = mutableListOf<Long>()
