@@ -18,6 +18,8 @@ https://jitpack.io/#masx200/nowcoder-test
 
 # 题目列表
 
+https://www.nowcoder.com/practice/2de4127fda5e46858aa85d254af43941
+
 https://www.nowcoder.com/practice/440f16e490a0404786865e99c6ad91c9
 
 https://www.nowcoder.com/practice/ae809795fca34687a48b172186e3dafe
