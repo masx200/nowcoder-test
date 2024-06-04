@@ -1,7 +1,7 @@
 package com.github.masx200.nowcoder_test.购物单
 
-import java.util.Scanner
 
+import java.util.Scanner
 /**
  * 主函数，用于读取输入并计算最大收益。
  * @param args 命令行参数
@@ -24,12 +24,10 @@ fun main(args: Array<String>) {
             var b = sc.nextInt()
             val c = sc.nextInt()
             // 调整价格单位为十元
-            a /= 10
-            // 计算商品重量
-            b *= a
-            // 根据商品类型，存储价格和重量
             a /= 10 // price
+            // 计算商品重量
             b *= a // weight
+            // 根据商品类型，存储价格和重量
             when (c) {
                 0 -> {
                     // 主件
@@ -63,6 +61,7 @@ fun main(args: Array<String>) {
                 val e = prices[i][2]
                 val f = weights[i][2]
                 // 更新动态规划数组，考虑购买主件、附件1、附件2以及全部购买的情况
+
                 dp[i][j] = if (j - a >= 0) maxOf(dp[i - 1][j], dp[i - 1][j - a] + b) else dp[i - 1][j]
                 dp[i][j] = if (j - a - c >= 0) maxOf(dp[i][j], dp[i - 1][j - a - c] + b + d) else dp[i][j]
                 dp[i][j] = if (j - a - e >= 0) maxOf(dp[i][j], dp[i - 1][j - a - e] + b + f) else dp[i][j]
