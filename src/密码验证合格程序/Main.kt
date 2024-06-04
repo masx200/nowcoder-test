@@ -1,7 +1,6 @@
 package com.github.masx200.nowcoder_test.密码验证合格程序
 
 import java.util.Scanner
-import java.util.regex.Pattern
 
 fun main(args: Array<String>) {
     val sc = Scanner(System.`in`)
@@ -47,8 +46,7 @@ fun getMatch(str: String): Boolean {
     if (str.count { it.isDigit() } > 0) {
         count++
     }
-    val p4 = Pattern.compile("[^a-zA-Z0-9]")
-    if (p4.matcher(str).find()) {
+    if (str.count { !(it.isDigit() && it.isLowerCase() && it.isUpperCase()) } > 0) {
         count++
     }
     return count < 3
