@@ -29,7 +29,14 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-
+        <repository>
+            <id>tencent-mirror</id>
+            <url>http://mirrors.cloud.tencent.com/nexus/repository/maven-public</url>
+        </repository>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
     </repositories>
 
     <build>
@@ -141,19 +148,6 @@
                     <mainClass>MainKt</mainClass>
                 </configuration>
             </plugin>
-            <!--            <plugin>-->
-            <!--                <groupId>org.apache.maven.plugins</groupId>-->
-            <!--                <version>3.2.1</version>-->
-            <!--                <artifactId>maven-source-plugin</artifactId>-->
-            <!--                <executions>-->
-            <!--                    <execution>-->
-            <!--                        <id>attach-sources</id>-->
-            <!--                        <goals>-->
-            <!--                            <goal>jar</goal>-->
-            <!--                        </goals>-->
-            <!--                    </execution>-->
-            <!--                </executions>-->
-            <!--            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
