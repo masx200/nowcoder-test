@@ -20,6 +20,8 @@ https://jitpack.io/#masx200/nowcoder-test
 
 https://www.nowcoder.com/practice/c1f9561de1e240099bdb904765da9ad0
 
+https://www.nowcoder.com/practice/88ddd31618f04514ae3a689e83f3ab8e
+
 https://www.nowcoder.com/practice/dd0c6b26c9e541f5b935047ff4156309
 
 https://www.nowcoder.com/practice/a30bbc1a0aca4c27b86dd88868de4a4a
